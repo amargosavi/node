@@ -1,4 +1,5 @@
+var gr=require('./lgn.json');
 var langa = function(){
-	console.log('hidni');
+	console.log(gr.hi);
 }
 module.exports= langa;
